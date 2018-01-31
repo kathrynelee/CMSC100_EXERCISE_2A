@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Jyra Mojica|About </title>
+		<link rel="shortcut icon" type="image/x-icon" href="logo.png">
+		<style>
+			html, body {
+				background-image:url('images2.png');
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			/*for the sidebar/navigation bar*/
+			.sidebar #crown {
+				position: fixed;
+				padding: 0.3em 0em 0em 6.6em;
+				width: 5em;
+				height:4em;
+			}
+
+			.sidebar {
+				position: fixed;
+				padding: 5em 0em 0em 8em;
+				width: 16.5em;
+			}
+
+			.sidebar #icon {
+				width: 4.5em;
+				height: 6em;
+				padding: 0em 0em 0em 0.5em;
+			}
+
+			.sidebar #icon:hover {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+				transition-duration: 1s;
+			}
+
+			.sidebar ul {
+				list-style: none;
+				text-align: center;
+				font-family: Arial;
+				font-size: 1.2em;
+				letter-spacing: 0.5em;
+			}
+
+			.sidebar li {
+				border-style: solid;
+				height: 2em;
+				padding: 0.8em 0em 0em 0.3em;
+				color: black;
+				opacity: 0.7;
+				width: 12em;
+			}
+
+			.sidebar li:hover {
+				color: black;
+				border-style: dotted solid;
+				-moz-box-shadow: 0px 0px 10px #ccc; 
+				-webkit-box-shadow: 0 0 10px #ccc; 
+				box-shadow: 0px 0px 10px #ccc;
+				opacity: 1;
+			}
+
+			.sidebar a {
+				text-decoration: none;
+				color: black;
+			}
+
+			.sidebar a:hover {
+				color:black;
+			}
+
+			.logo img {
+				position:fixed;
+				width: 15em;
+				height: 13em;
+				margin-left: 10.5em;
+				margin-top: 25.5em;
+			}
+
+			/*for the content container side*/
+			hr { 
+			  height: 1em; 
+			  border-style: solid; 
+			  border-color: #ff944d; 
+			  border-width: 0.3em 0em 0em 0em; 
+			  border-radius: 10em; 
+			} 
+
+
+			.feed {
+				color: black;
+				margin-left: 37em;
+				margin-top: 1em;
+				padding: 0em 0em 1em 0em;
+				background-color: #f5f5ef;
+				border-radius: 1em;
+			}
+
+			.feed .exer1{
+				padding-left: 2em;
+				padding-right: 2em;
+			}
+
+			.feed .subtitle {
+				margin-left: 1em;
+				margin-bottom: 0em;
+				font-family: Arial;
+				font-size: 1.5em;
+				letter-spacing: 0.5em;
+			}
+
+			.feed .basic {
+				margin-left: 1.5em;
+				margin-right: 1em;
+				font-size: 1em;
+				font-family: New Century Schoolbook, Arial;
+			}
+
+			.feed .basic span, .feed .heading{
+				font-weight: bold;
+			}
+
+			.feed .fave {
+				font-style: italic;
+			}
+
+			.feed .social p {	
+				text-align: right;
+				margin-left: 3em;
+			}
+
+			.feed .social a {
+				text-decoration: none;
+			}
+
+			.feed .social img {
+				padding-right: 0.7em;
+				width: 3em;
+				height: 3em;
+				opacity: 0.5;
+			}
+
+			.feed .social img:hover {
+				opacity: 1;
+			}
+
+			.feed .social #tumb {
+				height:2.8em;
+				width: 2.8em;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div class = "sidebar">
+			<img id ="crown" src="crown2.png">
+			<br> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="mojica_index.html"> <img id= "icon" src="mojica.png" title="Jyra Mojica"> </a> </p>
+			<br>
+			<ul>
+				<li> <a href = "profile.html">ABOUT ME</a> </li>
+				<p> </p>
+				<li> <a href = "projects.html">PROJECTS</a> </li>
+				<p> </p>
+			</ul>
+		</div>
+		<div class = "logo">
+			<img src = " logo.png">
+		</div>
+		<div class = "feed">
+			<!--
+			<hr> 
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img id = "pic1" src = "pic.jpg"> <img id ="pic2" src="pic2.jpg"> <img id = "pic3" src="pic3.jpg">	</p>
+			<br>
+			-->
+			<br/>
+			<p class = "subtitle"> BASIC INFORMATION </p>
+			<hr>
+			<div class = "basic">
+				<p> <span> Name: </span> Jyra Coleen E. Mojica</p> 
+				<p> <span> Nickname: </span> Jyra, Jura, Jyjy </p>
+				<p> <span> Birthday: </span> April 20, 1999 </p>
+				<p> <span> Address: </span> Brgy. Calingatan, Mataas na Kahoy, Batangas </p>
+				<p> <span> School: </span> University of the Philippines Los Ba&ntilde;os </p>
+				<p> <span> Course: </span> BS Computer Science </p>
+			</div>
+			<br/>
+
+			<p class = "subtitle"> CMSC 100 EXER 01 </p>
+			<hr>
+			<div class ="exer1">
+				<p class = "heading"> About me </p>
+				<p> 3rd year BS Computer Science student. Certainly not the best, not the brightest, not the most talented, but is capable. </p>
+				<p class = "heading"> The Real Reason for Taking ComSci </p>
+				<p> Failing to get into UP Diliman with a Psychology degree, I decided to take my second choice course instead. I really didn't expect that I will take an entirely different career path. </p>
+				<p class = "heading"> Favorites </p>
+				<p class = "fave"> ComSci subject: </p>
+				<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CMSC 2. The unbeatable. HTML and CSS were my head starter in webpage development in highschool and it is where I excelled in the most during that time, so it was really fun for me to take that class especially that designing the interface is a major interest. </p>
+				<p class = "fave"> Programming Language: </p>
+				<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. The programming language that I have used the longest time, so I have the most familiarity on C among all the programming languages I have used. It is the most comprehensive language I have used so far, followed by Java. Plus, I've grown more interest in C because of my great professor, Mr. Jason Obrero. </p>
+				<p class = "fave"> Food: </p>
+				<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Too many to mention </p>
+				<p class = "fave"> Color: </p>
+				<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navy Blue</p>
+				<p class = "heading"> Hobbies </p>
+					<ul>
+						<li> Singing, Dancing </li>
+						<li> Grocery shopping (very tita) </li>
+						<li> Reading manga, mahwa, manhua </li>
+						<li> Bullet Journaling </li>
+					</ul>
+			</div>
+			<br/>
+			<hr>
+			<div class = "social">
+				<p> 
+					<a href = "https://www.facebook.com/JCEM27"> <img src = "fb.png" alt = "Fb" title = "Facebook"> </a> 
+					<a href = "https://twitter.com/jcemojica"> <img src = "twit.png" alt=" Twitter" title = "Twitter"> </a>
+					<a href = "http://littledreamerfromdowntown.tumblr.com/"> <img id = "tumb" src = "tumb.png" alt = "Tumblr" title = "Tumblr"> </a> 
+				</p>
+			</div>	
+		</div>
+	</body>
+</html>
