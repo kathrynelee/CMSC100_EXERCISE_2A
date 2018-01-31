@@ -1,0 +1,16 @@
+GIT PART 2
+CMSC 100 January 31, 2018
+
+2 scenarios:
+	1. work alone
+	2. work in a group
+
+Git - technology
+Github.com - provider
+
+Repository in github - put files
+Local repo - put in the github repo
+
+1. git init - initialize
+	git config user.email "kathrynevidorlee@mgmail.com"
+	git config user.name "kathrynelee"
